@@ -73,9 +73,12 @@ a {
   text-decoration: none;
   transition: 0.3s;
 }
+/* #navmenu {
+  background: linear-gradient(90deg, #e8d7a4, #d7d5db);
+} */
 
 a:hover {
-  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  color: color-mix(in srgb, var(--accent-color), transparent 50%);
   text-decoration: none;
 }
 
@@ -145,7 +148,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(0, 0, 0, 0);
+  --background-color: rgba(0, 0, 0, 0.272);
   --heading-color: #ffffff;
   color: var(--default-color);
   background-color: var(--background-color);
@@ -7467,7 +7470,7 @@ section,
 .progress-bar {
   height: 100%;
   width: 0;
-  background: linear-gradient(90deg, #4facfe, #00f2fe);
+  background: linear-gradient(90deg, #2b3e4f, #00f2fe);
   color: #fff;
   text-align: center;
   font-size: 13px;
@@ -7478,7 +7481,7 @@ section,
 }
 
 .progress-bar.low {
-  background: linear-gradient(90deg, #e5ec5c, #e6d603);
+  background: linear-gradient(90deg, #54345c, #da60e7);
 }
 
 /* Animate with --progress custom property */

@@ -68,7 +68,7 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">Result</a></li>
+          <!-- <li><a href="about.html">Result</a></li> -->
           <li><a href="gallery.html">Gallery</a></li>
           <!-- <li><a href="amenities.html">Grand</a></li> -->
           <!-- <li><a href="location.html">Location</a></li> -->
@@ -81,7 +81,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted d-none d-sm-block" href="booking.html">Book Now</a>
+      <a class="btn-getstarted d-none d-sm-block" href="index.html">Back</a>
 
     </div>
   </header>
@@ -89,8 +89,8 @@
   <main class="main">
 
     <!-- Page Title -->
-    <!-- <div class="page-title dark-background" data-aos="fade"
-      style="background-image: url(assets/img/hotel/showcase-7.webp);">
+    <div class="page-title dark-background" data-aos="fade"
+      style="background-image: url(assets/img/download.jfif);">
       <div class="container position-relative">
         <h1>Contact</h1>
         <p>If you have any questions or need more information, feel free to reach out to us. We’re here to help.</p>
@@ -102,7 +102,7 @@
           </ol>
         </nav>
       </div>
-    </div> -->
+    </div>
     <!-- End Page Title -->
 
     <!-- Contact Section -->
@@ -119,7 +119,7 @@
               </div>
               <div class="info-content">
                 <h4>Our Address</h4>
-                <p>1842 Maple Avenue, Portland, Oregon 97204</p>
+                <p>F2VQ+X9Q, Cheroor Bridge Rd, Cheroor, Kerala 671123</p>
               </div>
             </div>
           </div>
@@ -131,13 +131,13 @@
               </div>
               <div class="info-content">
                 <h4>Email Address</h4>
-                <p>info@example.com</p>
-                <p>contact@example.com</p>
+                <p>frmcheroorkotta@example.com</p>
+                <!-- <p>contact@example.com</p> -->
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <!-- <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="contact-info-box">
               <div class="icon-box">
                 <i class="bi bi-headset"></i>
@@ -145,10 +145,10 @@
               <div class="info-content">
                 <h4>Hours of Operation</h4>
                 <p>Sunday-Fri: 9 AM - 6 PM</p>
-                <p>Saturday: 9 AM - 4 PM</p>
+                <p>Saturday-: 6:30 AM - 4 PM</p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
 
       </div>
@@ -156,7 +156,7 @@
       <!-- Google Maps (Full Width) -->
       <div class="map-section" data-aos="fade-up" data-aos-delay="200">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d524.5215920028426!2d75.03860272604646!3d12.494595078499028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba48348b3693d71%3A0x68f961aadf909e19!2sFurqaniyyathu%20Rifaiyya%20Madrassa!5e1!3m2!1sen!2sin!4v1756039801803!5m2!1sen!2sin"
           width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
@@ -168,56 +168,100 @@
             <div class="contact-form-wrapper">
               <h2 class="text-center mb-4">Get in Touch</h2>
 
-              <form action="forms/contact.php" method="post" class="php-email-form">
-                <div class="row g-3">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <div class="input-with-icon">
-                        <i class="bi bi-person"></i>
-                        <input type="text" class="form-control" name="name" placeholder="First Name" required="">
-                      </div>
-                    </div>
-                  </div>
+             <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+  <!-- Web3Forms Access Key -->
+  <input type="hidden" name="access_key" value="03b1ef85-d110-4125-a6d7-770ab7bbe593">
+  <input type="hidden" name="from_name" value="Your Website">
 
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <div class="input-with-icon">
-                        <i class="bi bi-envelope"></i>
-                        <input type="email" class="form-control" name="email" placeholder="Email Address" required="">
-                      </div>
-                    </div>
-                  </div>
+  <div class="row g-3">
+    <div class="col-md-6">
+      <div class="form-group">
+        <div class="input-with-icon">
+          <i class="bi bi-person"></i>
+          <input type="text" class="form-control" name="name" placeholder="First Name" required>
+        </div>
+      </div>
+    </div>
 
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <div class="input-with-icon">
-                        <i class="bi bi-text-left"></i>
-                        <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                      </div>
-                    </div>
-                  </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <div class="input-with-icon">
+          <i class="bi bi-envelope"></i>
+          <input type="email" class="form-control" name="email" placeholder="Email Address" required>
+        </div>
+      </div>
+    </div>
 
-                  <div class="col-12">
-                    <div class="form-group">
-                      <div class="input-with-icon">
-                        <i class="bi bi-chat-dots message-icon"></i>
-                        <textarea class="form-control" name="message" placeholder="Write Message..."
-                          style="height: 180px" required=""></textarea>
-                      </div>
-                    </div>
-                  </div>
+    <div class="col-md-12">
+      <div class="form-group">
+        <div class="input-with-icon">
+          <i class="bi bi-text-left"></i>
+          <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+        </div>
+      </div>
+    </div>
 
-                  <div class="col-12">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                  </div>
+    <div class="col-12">
+      <div class="form-group">
+        <div class="input-with-icon">
+          <i class="bi bi-chat-dots message-icon"></i>
+          <textarea class="form-control" name="message" placeholder="Write Message..." style="height: 180px" required></textarea>
+        </div>
+      </div>
+    </div>
 
-                  <div class="col-12 text-center">
-                    <button type="submit" class="btn btn-primary btn-submit">SEND MESSAGE</button>
-                  </div>
-                </div>
-              </form>
+    <!-- Messages -->
+    <div class="col-12">
+      <div class="loading" style="display:none;">Loading...</div>
+      <div class="error-message text-danger" style="display:none;"></div>
+      <div class="sent-message text-success" style="display:none;">നിങ്ങളുടെ സന്ദേശം അയച്ചു شكرًا</div>
+    </div>
+
+    <div class="col-12 text-center">
+      <button type="submit" class="btn btn-primary btn-submit">SEND MESSAGE</button>
+    </div>
+  </div>
+</form>
+
+<script>
+  const form = document.getElementById('contactForm');
+  const loading = form.querySelector('.loading');
+  const errorMessage = form.querySelector('.error-message');
+  const sentMessage = form.querySelector('.sent-message');
+
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    loading.style.display = 'block';
+    errorMessage.style.display = 'none';
+    sentMessage.style.display = 'none';
+
+    const formData = new FormData(form);
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: formData
+      });
+
+      const result = await response.json();
+      loading.style.display = 'none';
+
+      if (response.ok) {
+        sentMessage.style.display = 'block';
+        form.reset();
+      } else {
+        errorMessage.textContent = result.message || 'Something went wrong!';
+        errorMessage.style.display = 'block';
+      }
+    } catch (error) {
+      loading.style.display = 'none';
+      errorMessage.textContent = 'Network error. Please try again.';
+      errorMessage.style.display = 'block';
+    }
+  });
+</script>
+
+
             </div>
           </div>
         </div>
@@ -238,22 +282,22 @@
 
         <div class="d-flex flex-column align-items-center align-items-lg-start">
           <div>
-            © Copyright <strong><span>MyWebsite</span></strong>. All Rights Reserved
+            © Copyright <strong><span>Zyn</span></strong>. All Rights Reserved
           </div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a href="https://www.instagram.com/zainul_abid_himami">Zainul Abid Himami</a>
           </div>
         </div>
 
         <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
           <a href=""><i class="bi bi-twitter-x"></i></a>
           <a href=""><i class="bi bi-facebook"></i></a>
-          <a href=""><i class="bi bi-instagram"></i></a>
-          <a href=""><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.instagram.com/zainul_abid_himami"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/zainul-abid-ali-055a66346/"><i class="bi bi-linkedin"></i></a>
         </div>
 
       </div>
