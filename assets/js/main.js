@@ -262,6 +262,22 @@
   }
 
   productDetailFeatures();
+  const text = "Welcome to a Place of Knowledge and Faith";
+const typingElement = document.getElementById('typing');
+let index = 0;
+
+function type() {
+  if (index < text.length) {
+    typingElement.textContent += text.charAt(index);
+    index++;
+    setTimeout(type, 100); // typing speed in ms
+  } else {
+    typingElement.style.borderRight = 'none'; // remove cursor after typing
+  }
+}
+
+window.onload = type;
+
 
   /**
    * Init isotope layout and filters
